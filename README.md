@@ -5,6 +5,11 @@ The default date fields for product custom options use a very bad choice of java
 
 This extension replaces that redundent popup with a newer alternative from CalendarView.org which is not only actively maintained but is also easier to use, easier to skin, more reliable and much, much prettier. It is built on the Prototype JS library like the rest of Magento which saves a HTTP request and over 30KB, helping your pages to be smaller and faster for the customer. No extra library is needed, not even jQuery!
 
+Installing
+----------
+
+To install, get your extension key from [the Connect Marketplace](http://www.magentocommerce.com/magento-connect/calendarview.html).
+
 Usage
 -----
 
