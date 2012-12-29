@@ -1,0 +1,114 @@
+<_>
+   <form_key>J1iuqMKA96oQuq22</form_key>
+   <name>Clockworkgeek_CalendarView</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>Replace date picker with CalendarView</summary>
+   <description>Replaces the default (and ugly) (and buggy) javascript date picker with a newer, lightweight one from http://calendarview.org/
+</description>
+   <license>OSL v3.0</license>
+   <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
+   <version>0.3.0</version>
+   <stability>stable</stability>
+   <notes>Can be skinned entirely by modifying skin/frontend/base/defaultcss/calendarview.css
+Translations are provided in skin/frontend/default/french/js/calendarview.js and .../german/js/calendarview.js
+</notes>
+   <authors>
+      <name>
+         <name>Clockworkgeek</name>
+      </name>
+      <user>
+         <user>nonproffessional</user>
+      </user>
+      <email>
+         <email>nonproffessional@clockworkgeek.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>    </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magedesign</target>
+         <target>mageskin</target>
+         <target>mageskin</target>
+         <target>mageskin</target>
+         <target>mageskin</target>
+      </target>
+      <path>
+         <path/>
+         <path>Clockworkgeek/CalendarView</path>
+         <path>modules/Clockworkgeek_CalendarView.xml</path>
+         <path>frontend/base/default/layout/calendarview.xml</path>
+         <path>frontend/base/default/css/calendarview.css</path>
+         <path>frontend/base/default/js/calendarview.js</path>
+         <path>frontend/default/french/js/calendarview.js</path>
+         <path>frontend/default/german/js/calendarview.js</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>
