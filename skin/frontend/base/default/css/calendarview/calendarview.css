@@ -3,7 +3,8 @@ div.calendar
 {
   font-size: smaller;
   color: #000;
-  z-index: 100;
+  z-index: 5;
+  width: 217px;
 }
 
 div.calendar.popup
@@ -52,14 +53,22 @@ div.calendar tr.days td {
 }
 
 div.calendar tr.days td:hover,
-div.calendar td.button:hover
+div.calendar td.cvbutton:hover
 {
   background-color: #34ABFA;
   cursor: pointer;
 }
 
+
+div.calendar tr td.closeButton:hover
+{
+  background-color: #34ABFA;
+  cursor: pointer;
+}
+
+
 div.calendar tr.days td:active
-div.calendar td.button:active
+div.calendar td.cvbutton:active
 {
   background-color: #cde;
 }
@@ -80,4 +89,29 @@ div.calendar tr.days td.today
 div.calendar tr.days td.otherDay
 {
   color: #bbb;
+}
+
+div.calendar tr.days td.disabled,
+div.calendar tr.days td.disabled:hover
+{
+  background-color: initial;
+  color: #bbb;
+  cursor: default;
+  text-shadow: 1px 1px 0 white;
+}
+
+div.calendar .draggableHandler{
+  cursor: move;
+}
+
+/*  styles for the date_picker Rails plugin */
+span.date_picker a.date_label{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+span.date_picker a.date_label:hover{text-decoration: line-through;}
+
+span.date_picker span.trigger:hover{
+  cursor: pointer;
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ *
+ * @category   Design
+ * @package    Clockworkgeek_CalendarView
+ * @author     Daniel Deady <daniel@clockworkgeek.com>
+ * @copyright  Copyright (c) 2010, Daniel Deady
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<layout>
+
+	<catalog_product_view>
+		<reference name="head">
+			<!-- Remove nasty, old, ugly date picker -->
+			<action method="removeItem"><type>js_css</type><name>calendar/calendar-win2k-1.css</name><params/></action>
+			<action method="removeItem"><type>js</type><name>calendar/calendar.js</name></action>
+			<action method="removeItem"><type>js</type><name>calendar/calendar-setup.js</name></action>
+
+			<!-- Insert new, pretty, streamlined date picker -->
+			<action method="addItem"><type>js</type><name>calendarview/calendarview.js</name></action>
+			<action method="addItem"><type>skin_css</type><name>css/calendarview/calendarview.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/calendarview/calendarview-ie.css</name><params/><if>lt IE 8</if></action>
+		</reference>
+	</catalog_product_view>
+
+</layout>

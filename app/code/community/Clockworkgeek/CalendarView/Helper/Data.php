@@ -18,6 +18,14 @@
 class Clockworkgeek_CalendarView_Helper_Data extends Mage_Core_Helper_Data
 {
 
+	/**
+	 * Retrieve just the language part and not the country part
+	 */
+	public function getLocaleLanguageCode()
+	{
+		return substr(Mage::app()->getLocale()->getLocaleCode(), 0, 2);
+	}
+
 	public function getDateFieldsOrder()
 	{
 		$text = Mage::getStoreConfig('catalog/custom_options/date_fields_order');
