@@ -725,8 +725,54 @@ Calendar.messagebundle = $H({'en' :
         'december_short' : 'Dez',
 
         'today' : 'Heute'
-      })
-});
+      }),
+      'es' :
+        $H({
+          'monday' : 'Lunes',
+          'tuesday' : 'Martes',
+          'wednesday' : 'Miércoles',
+          'thursday' : 'Jueves',
+          'friday' : 'Viernes',
+          'saturday' : 'Sábado',
+          'sunday' : 'Domingo',
+
+          'monday_short' : 'L',
+          'tuesday_short' : 'M',
+          'wednesday_short' : 'X',
+          'thursday_short' : 'J',
+          'friday_short' : 'V',
+          'saturday_short' : 'S',
+          'sunday_short' : 'D',
+
+          'january' : 'Enero',
+          'february' : 'Febrero',
+          'march' : 'Marzo',
+          'april' : 'Abril',
+          'may' : 'Mayo',
+          'june' : 'Junio',
+          'july'  : 'Julio',
+          'august' : 'Agosto',
+          'september'  : 'Setiembre',
+          'october' : 'Octubre',
+          'november' : 'Noviembre',
+          'december' : 'Diciembre',
+
+          'january_short' : 'Ene',
+          'february_short' : 'Feb',
+          'march_short' : 'Mar',
+          'april_short' : 'Abr',
+          'may_short' : 'May',
+          'june_short' : 'Jun',
+          'july_short'  : 'Jul',
+          'august_short' : 'Ago',
+          'september_short'  : 'Sep',
+          'october_short' : 'Oct',
+          'november_short' : 'Nov',
+          'december_short' : 'Dic',
+
+          'today' : 'Hoy'
+        })
+  });
 
 
 Calendar.getMessageFor = function(key){
