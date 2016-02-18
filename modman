@@ -1,0 +1,5 @@
+app/code/community/Clockworkgeek/CalendarView            app/code/community/Clockworkgeek/CalendarView
+app/design/frontend/base/default/layout/calendarview.xml app/design/frontend/base/default/layout/calendarview.xml
+app/etc/modules/Clockworkgeek_CalendarView.xml           app/etc/modules/Clockworkgeek_CalendarView.xml
+js/calendarview                                          js/calendarview
+skin/frontend/base/default/css/calendarview              skin/frontend/base/default/css/calendarview
