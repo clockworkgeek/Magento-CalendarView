@@ -457,8 +457,8 @@ var Calendar = Class.create({
       y = containerWidth * this.y + pos.y;
     }else{ // 'container' - container of the trigger elements
       var pos = Position.cumulativeOffset(element);
-      x = pos[0];
-      y = this.container.offsetHeight * 0.75 + pos[1];
+      x = pos.left;
+      y = element.offsetHeight + pos.top + 2;
     }
     this.showAt(x, y);
   },
