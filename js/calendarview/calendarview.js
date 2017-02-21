@@ -334,6 +334,7 @@ var Calendar = Class.create({
             cell.className = '';
             cell.date = new Date(date);
             cell.update(day);
+            delete cell.navAction;
 
             // Account for days of the month other than the current month
             if (!isCurrentMonth)
