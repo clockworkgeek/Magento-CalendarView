@@ -109,6 +109,14 @@ var Calendar = Class.create({
       popupTriggerElement.observe('click', function(event){
         this.showAtElement(event, popupTriggerElement);
       }.bind(this) );
+      if (popupTriggerElement.tagName == 'INPUT') {
+          popupTriggerElement.observe('focus', function(event){
+            this.showAtElement(event, popupTriggerElement);
+          }.bind(this) );
+          popupTriggerElement.observe('blur', function(event){
+            this.hide();
+          }.bind(this) );
+      }
 
     } else{ // In-Page Calendar
       this.show();
