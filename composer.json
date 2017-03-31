@@ -1,0 +1,12 @@
+{
+  "name":"clockworkgeek/magento-calendarview",
+  "type":"magento-module",
+  "description":"Replace the default date picker with a modern, lightweight alternative.",
+  "authors":[
+    {
+      "name":"Daniel Deady",
+      "email":"daniel@clockworkgeek.com",
+      "user":"clockworkgeek"
+    }
+  ]
+}
